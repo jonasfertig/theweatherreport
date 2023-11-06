@@ -40,4 +40,4 @@ if __name__ == "__main__":
     while True:
         for site in url:
             fetch_and_save_website(site, save_directory)
-        time.sleep(5)  # Sleep for 1 hour (3600 seconds)
+        time.sleep(3600)  # Sleep for 1 hour (3600 seconds)
